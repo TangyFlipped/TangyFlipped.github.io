@@ -9,20 +9,23 @@
 body {
   background-color: #495057;
 }
+
 * {
   margin: 0 0 0 0;
   color: var(--text);
-  overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .navbar {
-  padding: .6rem;
-  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100dvw;
-  height: max-content;
+  max-width: 100%;
+  width: 100vw;
+  height: 44px;
   background-color: var(--background-dark);
 }
 
@@ -34,6 +37,7 @@ body {
 .navbar-list {
   display: flex;
   gap: 1.2rem;
+  list-style: none;
 }
 
 .navbar-search {
@@ -72,3 +76,4 @@ body {
 .navbar-search-submit:hover {
   cursor: pointer;
 }
+

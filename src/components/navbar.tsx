@@ -6,6 +6,7 @@ export default function Navbar() {
             <ul className="navbar-list">
                 <li><a href="/">Home</a></li>
                 <li><a href="/items">Items</a></li>
+                <li><a href="/bazaar">Bazaar Items</a></li>
             </ul>
 
             <form className="navbar-search">
