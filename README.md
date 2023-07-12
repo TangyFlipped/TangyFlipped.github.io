@@ -20,4 +20,4 @@ Tangy Flipped offers a range of features to enhance the flipping experience:
 - **NPC to Bazaar**: Shows a list of the most profitable NPC to Bazaar flips.
 
 <img src="https://developer.hypixel.net/hypixel-80.png" width="200">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAO1LhJYte7BVCgyBu0um1W0HV35-a7hRXgFKxop-dA&s" style="float: right; margin: 50px;">
+<img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" style="float: right; margin: 50px;" width="130">
