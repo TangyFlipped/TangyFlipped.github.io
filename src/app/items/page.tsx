@@ -1,11 +1,16 @@
 'use client'
 
-import ItemComponent from "@/components/item"
-import { getItems } from "@/utilities/apiUtils"
+import ItemComponent from '@/components/item';
 import { useEffect, useState } from 'react';
 
 export interface Item {
   name: string;
+  category: string;
+  durability: string;
+  material: string;
+  tier: string;
+  skin: string;
+  id: string;
 }
 
 export default function ItemsPage() {
@@ -29,7 +34,7 @@ export default function ItemsPage() {
     <div>
       <ul className="items-list">
         {items.map((item, index) => {
-          return <li key={index}>{item.name}</li>
+          return <ItemComponent key={index} {...item}/>
         })}
       </ul>
     </div>

@@ -77,3 +77,18 @@ body {
   cursor: pointer;
 }
 
+.items-list {
+  margin-top: 1rem;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-card {
+  background-color: var(--background-dark);
+  text-align: center;
+  width: 200px;
+}
