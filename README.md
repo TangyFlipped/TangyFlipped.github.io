@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tangy Flipped
 
-## Getting Started
+Tangy Flipped is a flipping website designed specifically for the Minecraft Hypixel Skyblock server. The website utilizes the powerful Next-JS13 framework and integrates with the Hypixel API to provide a comprehensive flipping experience for players.
 
-First, run the development server:
+## [Next-JS13](https://nextjs.org)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Next-JS13 is a cutting-edge web development framework that powers Tangy Flipped. It offers server-side rendering, static site generation, and a rich development environment. With Next-JS13, Tangy Flipped delivers fast and efficient performance, ensuring a seamless user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## [Hypixel API Integration](https://api.hypixel.net)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Hypixel API serves as the backbone of Tangy Flipped, enabling access to various game-related data and statistics. By leveraging the Hypixel API, the website can provide real-time information on market prices, item listings, and historical data. This integration allows players to make informed decisions when it comes to flipping items on the Hypixel Skyblock server.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Key Features
 
-## Learn More
+Tangy Flipped offers a range of features to enhance the flipping experience:
 
-To learn more about Next.js, take a look at the following resources:
+- **Crafting Profit**: Shows a list of the most profitable craft flips.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **NPC Sell**: Shows a list of the most profitable Bazaar to NPC flips.
+- **NPC to Bazaar**: Shows a list of the most profitable NPC to Bazaar flips.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="https://developer.hypixel.net/hypixel-80.png" width="200">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAO1LhJYte7BVCgyBu0um1W0HV35-a7hRXgFKxop-dA&s" style="float: right; margin: 50px;">
