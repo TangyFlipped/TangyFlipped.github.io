@@ -1,4 +1,4 @@
-import { Item } from "@/app/items/page";
+import { Item } from "@/types/interfaces";
 
 
 export default function ItemComponent({ name, category, tier, durability, id }: Item) {

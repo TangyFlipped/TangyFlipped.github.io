@@ -3,10 +3,11 @@ export default function Navbar() {
         <div className="navbar">
             <h2 className="navbar-logo">Tangy Flipped</h2>
 
-            <ul className="navbar-list">
+            <ul className="navbar-list" id="list-show">
                 <li><a href="/">Home</a></li>
                 <li><a href="/items">Items</a></li>
                 <li><a href="/bazaar">Bazaar Items</a></li>
+                <li><a href="/upgrade-calculator">Upgrade Calculator</a></li>
             </ul>
 
             <form className="navbar-search">
@@ -17,6 +18,10 @@ export default function Navbar() {
                     </svg>
                 </button>
             </form>
+
+            <div className="burger-menu">
+                <span className="burger-menu-bar"/>
+            </div>
         </div>
     )
 }

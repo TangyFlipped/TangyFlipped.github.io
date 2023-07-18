@@ -25,7 +25,6 @@ body {
   align-items: center;
   max-width: 100%;
   width: 100vw;
-  height: 44px;
   background-color: var(--background-dark);
 }
 
@@ -35,7 +34,6 @@ body {
 }
 
 .navbar-list {
-  display: flex;
   gap: 1.2rem;
   list-style: none;
 }
@@ -90,5 +88,98 @@ body {
 .item-card {
   background-color: var(--background-dark);
   text-align: center;
+  width: 320px;
+}
+
+.burger-menu {
+  display: none;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  right: 0px;
+  background-color: var(--text);
+}
+
+.burger-menu-bar {
+  width: 100%;
+}
+
+#list-show {
+  display: flex;
+}
+
+.hypixel-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.hypixel-info {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: var(--background-foreground);
+
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+
+  box-shadow: 5px 5px  var(--text);
+
+  max-width: 290px;
+}
+
+.hypixel-info-img {
   width: 200px;
+  border-radius: 50%;
+}
+
+.hypixel-info-input {
+  background-color: var(--background-dark);
+  height: 30px;
+  border: none;
+  text-align: center;
+  width: 300px;
+}
+
+.hypixel-items-list {
+  background-color: var(--background-foreground);
+  width: 75%;
+  height: 10rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px var(--text);
+
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hypixel-items-list li {
+  width: 10px;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+  #list-show {
+    position: absolute;
+  }
 }

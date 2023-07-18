@@ -1,19 +1,11 @@
 'use client'
 
 import ItemComponent from '@/components/item';
+import { Item } from '@/types/interfaces';
 import { useEffect, useState } from 'react';
 
-export interface Item {
-  name: string;
-  category: string;
-  durability: string;
-  material: string;
-  tier: string;
-  skin: string;
-  id: string;
-}
-
 export default function ItemsPage() {
+  document.title = 'Items'
   const [items, setItems] = useState<Item[]>([]);
 
   useEffect(() => {
